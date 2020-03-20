@@ -4,13 +4,13 @@
   "type": "step_based",
   "name": "Test",
   "active": false,
-  "runAsUser": "analyst",
+  "runAsUser": "admin",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
-      "login": "admin"
+      "login": "api:XMuHHQ9AtM20y8Q5"
     },
-    "lastModifiedOn": 1584713916839
+    "lastModifiedOn": 1584714640445
   },
   "checklists": {
     "checklists": []
