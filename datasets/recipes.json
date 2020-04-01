@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585757311683
+    "lastModifiedOn": 1585757350830
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,8 +85,45 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "project_key",
+        "type": "string"
+      },
+      {
+        "name": "recipe_name",
+        "type": "string"
+      },
+      {
+        "name": "last_modified",
+        "type": "string"
+      },
+      {
+        "name": "inputs_conn_names",
+        "type": "string"
+      },
+      {
+        "name": "inputs_dataset_names",
+        "type": "string"
+      },
+      {
+        "name": "inputs_dataset_types",
+        "type": "string"
+      },
+      {
+        "name": "outputs_conn_names",
+        "type": "string"
+      },
+      {
+        "name": "outputs_dataset_names",
+        "type": "string"
+      },
+      {
+        "name": "outputs_dataset_types",
+        "type": "string"
+      }
+    ],
+    "userModified": false
   },
   "metrics": {
     "probes": [
