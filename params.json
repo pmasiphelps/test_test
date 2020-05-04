@@ -57,7 +57,7 @@
       "forbiddenEngines": [],
       "enginesPreferenceOrder": [],
       "forbiddenByRecipeType": {
-        "SHAKER": [
+        "PREPARE": [
           "DSS"
         ]
       },
@@ -184,11 +184,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1588605576127
+    "lastModifiedOn": 1588605608928
   },
   "creationTag": {
     "versionNumber": 0,
