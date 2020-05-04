@@ -56,7 +56,6 @@
     "recipeEnginesPreferences": {
       "forbiddenEngines": [],
       "enginesPreferenceOrder": [],
-      "forbiddenByRecipeType": {},
       "preferenceByRecipeType": {}
     },
     "codeEnvs": {
@@ -180,11 +179,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1588604035436
+    "lastModifiedOn": 1588604877771
   },
   "creationTag": {
     "versionNumber": 0,
