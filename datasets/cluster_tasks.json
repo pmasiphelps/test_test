@@ -27,11 +27,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1588351980123
+    "lastModifiedOn": 1588605518270
   },
   "creationTag": {
     "versionNumber": 0,
@@ -51,7 +51,36 @@
     "flowActions": {}
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "connection",
+        "type": "string"
+      },
+      {
+        "name": "task_type",
+        "type": "string"
+      },
+      {
+        "name": "project_key",
+        "type": "string"
+      },
+      {
+        "name": "task_data",
+        "type": "string"
+      },
+      {
+        "name": "user",
+        "type": "string"
+      },
+      {
+        "name": "start_time",
+        "type": "bigint"
+      },
+      {
+        "name": "end_time",
+        "type": "bigint"
+      }
+    ],
     "userModified": true
   },
   "metrics": {
