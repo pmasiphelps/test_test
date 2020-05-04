@@ -59,6 +59,9 @@
       "forbiddenByRecipeType": {
         "shaker": [
           "DSS"
+        ],
+        "python": [
+          "DSS"
         ]
       },
       "preferenceByRecipeType": {}
@@ -184,11 +187,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1588606851637
+    "lastModifiedOn": 1588606875558
   },
   "creationTag": {
     "versionNumber": 0,
