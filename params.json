@@ -70,7 +70,8 @@
       }
     },
     "container": {
-      "containerMode": "NONE"
+      "containerMode": "EXPLICIT_CONTAINER",
+      "containerConf": "k8s_dataiku_ds"
     },
     "datasetsCreationSettings": {
       "useGlobal": true,
@@ -179,11 +180,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1587140683177
+    "lastModifiedOn": 1588604035436
   },
   "creationTag": {
     "versionNumber": 0,
