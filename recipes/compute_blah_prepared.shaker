@@ -25,7 +25,10 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "steps": [],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
@@ -34,7 +37,15 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "start_time": 120,
+    "task_data": 300,
+    "project_key": 169,
+    "end_time": 106,
+    "connection": 120,
+    "task_type": 134,
+    "user": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
