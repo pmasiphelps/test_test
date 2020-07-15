@@ -6,11 +6,11 @@
   "active": false,
   "runAsUser": "admin",
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
-      "login": "api:XMuHHQ9AtM20y8Q5"
+      "login": "admin"
     },
-    "lastModifiedOn": 1585672263491
+    "lastModifiedOn": 1594839954005
   },
   "checklists": {
     "checklists": []
@@ -24,7 +24,44 @@
   "triggers": [],
   "reporters": [],
   "params": {
-    "steps": []
+    "steps": [
+      {
+        "id": "def_scenar_vars_now_now_year_now_month_year_month",
+        "type": "define_vars",
+        "name": "Step #1",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "variables": {},
+          "definitions": [
+            {
+              "key": "now",
+              "value": "now()"
+            },
+            {
+              "key": "now_year",
+              "value": "datePart(now,\u0027year\u0027)"
+            },
+            {
+              "key": "now_month",
+              "value": "datePart(now,\u0027month\u0027)"
+            },
+            {
+              "key": "year_month",
+              "value": "concat(now_year,\u0027-\u0027,now_month)"
+            }
+          ],
+          "evaluateValues": true
+        }
+      }
+    ]
   },
   "automationLocal": false,
   "customFields": {}
