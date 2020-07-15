@@ -6,11 +6,11 @@
   "active": false,
   "runAsUser": "admin",
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1594840162949
+    "lastModifiedOn": 1594840179614
   },
   "checklists": {
     "checklists": []
@@ -46,16 +46,8 @@
               "value": "now()"
             },
             {
-              "key": "now_year",
-              "value": "datePart(now,\u0027year\u0027)"
-            },
-            {
-              "key": "now_month",
-              "value": "if(datePart(now,\u0027month\u0027)\u003c10,concat(\u00270\u0027,datePart(now,\u0027month\u0027)),datePart(now,\u0027month\u0027))"
-            },
-            {
               "key": "year_month",
-              "value": "concat(now_year,\u0027-\u0027,if(datePart(now,\u0027month\u0027)\u003c10,concat(\u00270\u0027,datePart(now,\u0027month\u0027)),datePart(now,\u0027month\u0027)))"
+              "value": "concat(datePart(now,\u0027year\u0027),\u0027-\u0027,if(datePart(now,\u0027month\u0027)\u003c10,concat(\u00270\u0027,datePart(now,\u0027month\u0027)),datePart(now,\u0027month\u0027)))"
             }
           ],
           "evaluateValues": true
