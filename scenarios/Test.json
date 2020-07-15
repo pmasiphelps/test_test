@@ -6,11 +6,11 @@
   "active": false,
   "runAsUser": "admin",
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1594840046350
+    "lastModifiedOn": 1594840098647
   },
   "checklists": {
     "checklists": []
@@ -55,7 +55,7 @@
             },
             {
               "key": "year_month",
-              "value": "concat(now_year,\u0027-\u0027,now_month)"
+              "value": "concat(now_year,\u0027-\u0027,toString(now_month))"
             }
           ],
           "evaluateValues": true
