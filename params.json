@@ -86,7 +86,7 @@
       "containerConf": "k8s_dataiku_ds"
     },
     "datasetsCreationSettings": {
-      "useGlobal": false,
+      "useGlobal": true,
       "forcedPreferedConnection": "postgres_dku",
       "preferedStorageFormats": "CSV_ESCAPING_NOGZIP_FORHIVE,CSV_EXCEL_GZIP,PARQUET_HIVE",
       "virtualizable": false,
@@ -196,11 +196,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1595598347396
+    "lastModifiedOn": 1595598759851
   },
   "creationTag": {
     "versionNumber": 0,
