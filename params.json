@@ -17,6 +17,7 @@
     "objects": []
   },
   "projectType": "REGULAR",
+  "projectAppType": "REGULAR",
   "owner": "admin",
   "permissions": [],
   "additionalDashboardUsers": {
@@ -57,10 +58,10 @@
       "forbiddenEngines": [],
       "enginesPreferenceOrder": [],
       "forbiddenByRecipeType": {
-        "shaker": [
+        "python": [
           "DSS"
         ],
-        "python": [
+        "shaker": [
           "DSS"
         ]
       },
@@ -68,11 +69,15 @@
     },
     "codeEnvs": {
       "python": {
-        "useBuiltinEnv": true,
+        "mode": "INHERIT",
         "preventOverride": false
       },
       "r": {
-        "useBuiltinEnv": true,
+        "mode": "INHERIT",
+        "preventOverride": false
+      },
+      "julia": {
+        "mode": "INHERIT",
         "preventOverride": false
       }
     },
@@ -81,7 +86,8 @@
       "containerConf": "k8s_dataiku_ds"
     },
     "datasetsCreationSettings": {
-      "useGlobal": true,
+      "useGlobal": false,
+      "forcedPreferedConnection": "postgres_dku",
       "preferedStorageFormats": "CSV_ESCAPING_NOGZIP_FORHIVE,CSV_EXCEL_GZIP,PARQUET_HIVE",
       "virtualizable": false,
       "allowUploadsWithoutConnection": true
@@ -124,9 +130,12 @@
           "initialReplicas": 1,
           "hpa": false,
           "hpaTargetCPUPercent": 0,
+          "hpaMetrics": [],
           "hpaMinPods": 0,
-          "hpaMaxPods": 0
-        }
+          "hpaMaxPods": 0,
+          "hpaAnnotations": []
+        },
+        "deploymentModifier": {}
       }
     }
   },
@@ -187,11 +196,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1588606875558
+    "lastModifiedOn": 1595598347396
   },
   "creationTag": {
     "versionNumber": 0,
@@ -203,8 +212,8 @@
   "shortDesc": "The project *API Examples* was created by pat on Mar 09th 2020",
   "tags": [],
   "customFields": {
-    "gdpr_forbid_dataset_sharing": false,
     "gdpr_forbid_dataset_export": false,
+    "gdpr_forbid_dataset_sharing": false,
     "gdpr_forbid_model_creation": false,
     "gdpr_forbid_uploaded_datasets": false
   },
