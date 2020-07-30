@@ -69,12 +69,14 @@
     },
     "codeEnvs": {
       "python": {
-        "mode": "INHERIT",
-        "preventOverride": false
+        "mode": "EXPLICIT_ENV",
+        "preventOverride": true,
+        "envName": "py36_web_scraping"
       },
       "r": {
         "mode": "INHERIT",
-        "preventOverride": false
+        "preventOverride": false,
+        "envName": "RML"
       },
       "julia": {
         "mode": "INHERIT",
@@ -196,11 +198,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
-      "login": "api:XMuHHQ9AtM20y8Q5"
+      "login": "admin"
     },
-    "lastModifiedOn": 1595598957586
+    "lastModifiedOn": 1596122682070
   },
   "creationTag": {
     "versionNumber": 0,
