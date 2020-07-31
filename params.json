@@ -88,7 +88,7 @@
     },
     "codeEnvs": {
       "python": {
-        "mode": "EXPLICIT_ENV",
+        "mode": "INHERIT",
         "preventOverride": false,
         "envName": "py36_web_scraping"
       },
@@ -217,11 +217,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 19,
+    "versionNumber": 20,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1596207482284
+    "lastModifiedOn": 1596207487253
   },
   "creationTag": {
     "versionNumber": 0,
