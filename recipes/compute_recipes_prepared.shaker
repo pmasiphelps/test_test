@@ -26,7 +26,10 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "steps": [],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
@@ -35,7 +38,17 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "inputs_conn_names": 246,
+    "project_key": 169,
+    "outputs_dataset_names": 300,
+    "recipe_name": 300,
+    "inputs_dataset_types": 232,
+    "outputs_dataset_types": 225,
+    "last_modified": 113,
+    "inputs_dataset_names": 300,
+    "outputs_conn_names": 232
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
