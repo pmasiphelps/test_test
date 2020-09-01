@@ -76,14 +76,7 @@
     "recipeEnginesPreferences": {
       "forbiddenEngines": [],
       "enginesPreferenceOrder": [],
-      "forbiddenByRecipeType": {
-        "python": [
-          "DSS"
-        ],
-        "shaker": [
-          "DSS"
-        ]
-      },
+      "forbiddenByRecipeType": {},
       "preferenceByRecipeType": {}
     },
     "codeEnvs": {
@@ -217,11 +210,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 20,
+    "versionNumber": 21,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1596207487253
+    "lastModifiedOn": 1598967160032
   },
   "creationTag": {
     "versionNumber": 0,
