@@ -34,9 +34,16 @@
       "type": "PY_FUNCTION"
     }
   ],
-  "publicAccess": true,
+  "publicAccess": false,
   "authRealm": {
-    "queryKeys": []
+    "queryKeys": [
+      {
+        "key": "2YBY1PDdSEZBjIyJMIi6hEBqVg1rrb8I",
+        "label": "citi_only",
+        "createdOn": 1599232132445,
+        "createdBy": "admin"
+      }
+    ]
   },
   "tags": [],
   "customFields": {},
