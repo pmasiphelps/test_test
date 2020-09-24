@@ -22,4 +22,6 @@ out_py_df = ds_with_arrays_df # For this sample code, simply copy input to outpu
 
 # Write recipe outputs
 out_py = dataiku.Dataset("out_py")
-out_py.write_with_schema(out_py_df)
+
+# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
+out_py.write_with_schema(out_py_df, dropAndCreate=False)
