@@ -38,7 +38,23 @@
     }
   },
   "owner": "admin",
-  "permissions": [],
+  "permissions": [
+    {
+      "group": "team_1",
+      "admin": false,
+      "readProjectContent": true,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    }
+  ],
   "additionalDashboardUsers": {
     "users": []
   },
@@ -210,11 +226,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 21,
+    "versionNumber": 22,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1598967160032
+    "lastModifiedOn": 1600968068445
   },
   "creationTag": {
     "versionNumber": 0,
