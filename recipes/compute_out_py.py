@@ -7,7 +7,7 @@ from dataiku import pandasutils as pdu
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Read recipe inputs
 ds_with_arrays = dataiku.Dataset("ds_with_arrays")
-ds_with_arrays_df = ds_with_arrays.get_dataframe()
+ds_with_arrays_df = ds_with_arrays.get_dataframe(infer_with_pandas=False)
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 ds_with_arrays_df['array_col']
