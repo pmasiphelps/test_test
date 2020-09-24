@@ -36,11 +36,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1600987949182
+    "lastModifiedOn": 1600987981225
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,7 +57,12 @@
     "importProjectKey": "APIEXAMPLES"
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "array_col",
+        "type": "array"
+      }
+    ],
     "userModified": true
   },
   "metrics": {
