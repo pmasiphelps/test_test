@@ -1,0 +1,59 @@
+{
+  "pages": [
+    {
+      "id": "HQN5PAG",
+      "grid": {
+        "tiles": [
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 0,
+              "left": 0,
+              "width": 6,
+              "height": 3
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "tileParams": {
+              "showName": true,
+              "showDescription": true,
+              "showCustomFields": true,
+              "showStorageType": false,
+              "showMeaning": false,
+              "showProgressBar": false
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "wz7ZnJC",
+            "insightType": "dataset_table",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          }
+        ]
+      },
+      "showTitle": false
+    }
+  ],
+  "owner": "admin",
+  "listed": true,
+  "name": "API Examples\u0027s default dashboard",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 2,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1600178938298
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1583771039985
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

@@ -3,7 +3,8 @@
     "python/fake_proj": {
       "remote": "https://github.com/pmasiphelps/test_test.git",
       "checkout": "refs/heads/master",
-      "remotePath": ""
+      "remotePath": "",
+      "lastHash": "8ca11c602f393c7094ccfb491ade652713d20566"
     }
   },
   "pythonPath": [

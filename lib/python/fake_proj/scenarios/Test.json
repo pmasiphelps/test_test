@@ -1,0 +1,60 @@
+{
+  "projectKey": "APIEXAMPLES",
+  "id": "Test",
+  "type": "step_based",
+  "name": "Test",
+  "active": false,
+  "runAsUser": "admin",
+  "versionTag": {
+    "versionNumber": 14,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1594840180313
+  },
+  "checklists": {
+    "checklists": []
+  },
+  "delayedTriggersBehavior": {
+    "delayWhileRunning": true,
+    "squashDelayedTriggers": true,
+    "suppressTriggersWhileRunning": true
+  },
+  "tags": [],
+  "triggers": [],
+  "reporters": [],
+  "params": {
+    "steps": [
+      {
+        "id": "def_scenar_vars_now_now_year_now_month_year_month",
+        "type": "define_vars",
+        "name": "Step #1",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "variables": {},
+          "definitions": [
+            {
+              "key": "now",
+              "value": "now()"
+            },
+            {
+              "key": "year_month",
+              "value": "concat(datePart(now,\u0027year\u0027),\u0027-\u0027,if(datePart(now,\u0027month\u0027)\u003c10,concat(\u00270\u0027,datePart(now,\u0027month\u0027)),datePart(now,\u0027month\u0027)))"
+            }
+          ],
+          "evaluateValues": true
+        }
+      }
+    ]
+  },
+  "automationLocal": false,
+  "customFields": {}
+}

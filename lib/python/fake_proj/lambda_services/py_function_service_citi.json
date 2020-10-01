@@ -1,0 +1,53 @@
+{
+  "name": "py_function_service_citi",
+  "endpoints": [
+    {
+      "envSelection": {
+        "envMode": "INHERIT"
+      },
+      "testQueries": [
+        {
+          "q": {
+            "number": 40
+          }
+        },
+        {
+          "q": {
+            "number": 0
+          }
+        },
+        {
+          "q": {
+            "number": 100000000
+          }
+        },
+        {
+          "q": {
+            "number": -5
+          }
+        }
+      ],
+      "inputFolderRefs": [],
+      "userFunctionName": "api_py_function",
+      "code": "\n# Insert here initialization code\n\n# This function is the entry point for your Python function API\n# You can call this function with passing \"param1\", \"param2\",\n# \"param3\" as arguments to the API call\n# (see REST API documentation)\ndef add_ten(number):\n    \n    return number + 10\n",
+      "id": "add_ten_py_func",
+      "type": "PY_FUNCTION"
+    }
+  ],
+  "publicAccess": false,
+  "authRealm": {
+    "queryKeys": [
+      {
+        "key": "2YBY1PDdSEZBjIyJMIi6hEBqVg1rrb8I",
+        "label": "citi_only",
+        "createdOn": 1599232132445,
+        "createdBy": "admin"
+      }
+    ]
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
