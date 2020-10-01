@@ -1,7 +1,14 @@
 {
-  "gitReferences": {},
+  "gitReferences": {
+    "python/fake_proj": {
+      "remote": "https://github.com/pmasiphelps/test_test.git",
+      "checkout": "refs/heads/master",
+      "remotePath": ""
+    }
+  },
   "pythonPath": [
-    "python"
+    "python",
+    "python/fake_proj"
   ],
   "rsrcPath": [
     "R"
